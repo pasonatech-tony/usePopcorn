@@ -1,6 +1,6 @@
 import React from "react";
 
-const Star = ({ full, onRate, onHoverIn, onHoverOut, color, size }) => {
+function Star({ full, onRate, onHoverIn, onHoverOut, color, size }) {
   const starStyle = {
     width: `${size}px`,
     height: `${size}px`,
@@ -42,6 +42,6 @@ const Star = ({ full, onRate, onHoverIn, onHoverOut, color, size }) => {
       )}
     </span>
   );
-};
+}
 
 export default Star;

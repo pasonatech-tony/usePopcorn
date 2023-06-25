@@ -1,6 +1,6 @@
 import React from "react";
 
-const WatchedMovie = ({ movie }) => {
+function WatchedMovie({ movie }) {
   return (
     <li>
       <img src={movie.Poster} alt={`${movie.Title} poster`} />
@@ -21,6 +21,6 @@ const WatchedMovie = ({ movie }) => {
       </div>
     </li>
   );
-};
+}
 
 export default WatchedMovie;

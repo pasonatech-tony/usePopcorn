@@ -2,8 +2,8 @@
 
 ### How to run the project
 
-- Install dependencies using `yarn`
-- Start the project using `yarn start`
+- Install dependencies using `npm i`
+- Start the project using `npm start`
 
 ### Application preview
 

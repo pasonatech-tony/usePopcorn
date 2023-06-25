@@ -2,7 +2,7 @@ import React from "react";
 
 import WatchedMovie from "./WatchedMovie";
 
-const WatchedMoviesList = ({ watched }) => {
+function WatchedMoviesList({ watched }) {
   return (
     <ul className="list">
       {watched.map((movie) => (
@@ -10,6 +10,6 @@ const WatchedMoviesList = ({ watched }) => {
       ))}
     </ul>
   );
-};
+}
 
 export default WatchedMoviesList;

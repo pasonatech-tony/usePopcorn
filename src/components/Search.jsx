@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 
-const Search = () => {
-  const [query, setQuery] = useState("");
-
+function Search({ query, setQuery }) {
   return (
     <input
       className="search"
@@ -12,6 +10,6 @@ const Search = () => {
       onChange={(e) => setQuery(e.target.value)}
     />
   );
-};
+}
 
 export default Search;

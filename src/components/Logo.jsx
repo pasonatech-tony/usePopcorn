@@ -1,12 +1,12 @@
 import React from "react";
 
-const Logo = () => {
+function Logo() {
   return (
     <div className="logo">
       <span role="img">🍿</span>
       <h1>usePopcorn</h1>
     </div>
   );
-};
+}
 
 export default Logo;
